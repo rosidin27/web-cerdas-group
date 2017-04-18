@@ -4492,7 +4492,7 @@ footer p {
 }
 .footer-banner a {
   color: #fff;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .footer-banner a:hover {
   text-decoration: none;

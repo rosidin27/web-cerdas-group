@@ -2,7 +2,6 @@
 	include "config/koneksi.php"; 
 	session_start();
 ?>
- <!-- FlatFy Theme - Andrea Galanti /-->
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -12,18 +11,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+    <meta name="description" content="CV Cerdas Group Ahlinya Sedot WC. Kami perusahaan berpengalaman selama hampir 10 tahun dengan banyak cabang biberbagai daerah (Bandar Lampung, Jambi, Pekan Baru, Karawang, Sidempuan, dll.) dan jumlah armada yang memadai. Segera hubungi kami jika wc anda bermasalah, karena hanya kami yang mengerti. Anda telepon maka kami akan segera datang tanpa menunggu lama. \"Profesionalisme Perwujudan Tanggung Jawab\" Kami tahu bahwa ketika masyarakat memilih kami sebagai solusi dalam persoalan wc penuh atau mampet yang mereka alami, hal oini merupakan tanggung jawab yang harus kami selesaikan dengan penuh tanggung jawab. ">
+    <meta name="author" content="cv. cerdas grup">
+    <meta name="keyword" content="Sedot Wc, Bandar Lampung, Lampung, Jambi, Pekan Baru, Karawang, Sidempuan, CV. Cerdas Group, Ahlinya Sedot WC, WC , Sedot WC Lampung">
 
-    <title>Cerdas Group</title>
+    <title>Sedot WC - Cerdas Group -</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
  
     <!-- Custom Google Web Font -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>-->
+	<!--<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>-->
 	
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
@@ -81,41 +81,52 @@
 	</div>
 	
 	<!-- FullScreen -->
-	
     <div id="carousel-id" class="carousel slide" data-ride="carousel">
     	<ol class="carousel-indicators">
-    		<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+    		<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
     		<li data-target="#carousel-id" data-slide-to="1" class=""></li>
-    		<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+    		<li data-target="#carousel-id" data-slide-to="2" class=""></li>
     	</ol>
     	<div class="carousel-inner" >
-    		<div class="item" >
-    			<center><img class="fit-view" alt="First slide" src="img/slider/1.jpg"></center>
+    		<div class="item active" >
+    			<center><img class="fit-view" alt="First slide" src="img/slider/intro4.jpg"></center>
     			<div class="container">
-    				<div class="carousel-caption">
-    					<h2>CV Cerdas Group</h2>
-    					<p>Kami Memberikan Harga Yang Sangat Terjangkau</p>
-    					<p><a class="btn btn-lg btn-primary" href="#galeri" role="button">Browse gallery</a></p>
+    				<div class="carousel-caption abcen1">
+						<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Sedot WC Cerdas Group</h1>
+						<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Kami Memberikan Harga Yang Sangat Terjangkau</h3>
+						<div class="col-xs-12 text-center abcen wow fadeIn animated animated" style="visibility: visible;">
+							<div class="button_down "> 
+								<a class="imgcircle wow bounceInUp animated animated" data-wow-duration="1.5s" href="#profil" style="visibility: visible; animation-duration: 1.5s;"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+							</div>
+						</div>
     				</div>
     			</div>
     		</div>
     		<div class="item" >
     			<center><img class="fit-view" alt="Second slide" src="img/slider/2.jpg"></center>
     			<div class="container">
-    				<div class="carousel-caption">
-    					<h2>CV Cerdas Group</h2>
-    					<p>Memberikan Pelayanan Yang Profesional</p>
-    					<p><a class="btn btn-lg btn-primary" href="#galeri" role="button">Browse gallery</a></p>
+    				<div class="carousel-caption abcen1">
+					<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Sedot WC Cerdas Group</h1>
+						<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Kami Memberikan Harga Yang Sangat Terjangkau</h3>
+						<div class="col-xs-12 text-center abcen wow fadeIn animated animated" style="visibility: visible;">
+							<div class="button_down "> 
+								<a class="imgcircle wow bounceInUp animated animated" data-wow-duration="1.5s" href="#whatis" style="visibility: visible; animation-duration: 1.5s;"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+							</div>
+						</div>
     				</div>
     			</div>
     		</div>
-    		<div class="item active" >
+    		<div class="item" >
     			<center><img class="fit-view" alt="Third slide" src="img/slider/3.jpg"></center>
     			<div class="container">
-    				<div class="carousel-caption">
-    					<h2>CV Cerdas Group</h2>
-    					<p>Bekerja Secara Cepat dan Tanggap</p>
-    					<p><a class="btn btn-lg btn-primary" href="#galeri" role="button">Browse gallery</a></p>
+    				<div class="carousel-caption abcen1">
+						<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Sedot WC Cerdas Group</h1>
+						<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Kami Memberikan Harga Yang Sangat Terjangkau</h3>
+						<div class="col-xs-12 text-center abcen wow fadeIn animated animated" style="visibility: visible;">
+							<div class="button_down "> 
+								<a class="imgcircle wow bounceInUp animated animated" data-wow-duration="1.5s" href="#whatis" style="visibility: visible; animation-duration: 1.5s;"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+							</div>
+						</div>
     				</div>
     			</div>
     		</div>
@@ -133,7 +144,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#home">Cerdas Group</a>
+				<a class="navbar-brand" href="#home">Sedot WC - Cerdas Group</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
@@ -143,6 +154,7 @@
 					<li class="menuItem"><a href="#visi">Visi</a></li>
 					<li class="menuItem"><a href="#misi">Misi</a></li>
 					<li class="menuItem"><a href="#galeri">Galeri</a></li>
+					<li class="menuItem"><a href="#jangkauan">Jangkauan</a></li>
 					<li class="menuItem"><a href="#contact">Kontak</a></li>
 					<?php
 					if(isset($_SESSION['username'])){
@@ -169,35 +181,29 @@
 	<!-- What is -->
 	<div id="profil" class="content-section-b" style="border-top: 0">
 		<div class="container">
-
 			<center><div class="col-md-12 col-md-offset-3 text-center wrap_title" style="margin-left:0px;">
 				<h2>Profil</h2>
 				<p class="lead" style="margin-top:0">CV Cerdas Group Ahlinya Sedot WC</p>
-				
 			</div>
 			</center>
-			
+
 			<div class="row lead">
-					<?php echo $profil['detail_profil']; ?>
-				<img src="<?php echo "img/galeri/profil/".$profil['foto_profil']; ?>" class="col-md-12 img-responsive img-rounded" style="padding-right: 0px; padding-left: 0px;">
+				<?php echo $profil['detail_profil']; ?>
+				<!--<img src="<?php echo "img/galeri/profil/".$profil['foto_profil']; ?>" class="col-md-12 img-responsive img-rounded" style="padding-right: 0px; padding-left: 0px;">-->
 			</div><!-- /.row -->
 		</div>
 	</div>
 	
 	<!-- Use it -->
     <div id ="visi" class="content-section-a">
-
         <div class="container">
-			
             <div class="row">
-			
 				<div class="col-sm-6 pull-right wow fadeInRightBig">
                     <img class="img-responsive img-rounded" src="<?php echo "img/galeri/profil/".$profil['foto_visi']; ?>" alt="">
                 </div>
-				
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Visi</h3>
-					<div class="sub-title lead3">Visi kami dalam mewujudkan cita-cita perusahaan ini yaitu: </div>
+                    <h2 class="section-heading">Visi</h2>
+					<div class="lead">Visi kami dalam mewujudkan cita-cita perusahaan ini yaitu: </div>
                     <p class="lead">
 						<?php echo $profil['visi']; ?>
 					</p>
@@ -208,16 +214,14 @@
     </div>
 
     <div id="misi" class="content-section-b"> 
-		
 		<div class="container">
             <div class="row">
                 <div class="col-sm-6 pull-left wow fadeInRightBig">
-                    <img class="img-responsive img-rounded" src="<?php echo "img/galeri/profil/".$profil['foto_visi']; ?>" alt="">
+                    <img class="img-responsive img-rounded" src="<?php echo "img/galeri/profil/".$profil['foto_misi']; ?>" alt="">
                 </div>
-				
                 <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Misi</h3>
-					<div class="sub-title lead3">Misi kami dalam mewujudkan cita-cita perusahaan ini yaitu: </div>
+                    <h2 class="section-heading">Misi</h2>
+					<div class="sub-title lead">Misi kami dalam mewujudkan cita-cita perusahaan ini yaitu: </div>
                     <p class="lead">
 						<?php echo $profil['misi']; ?>
 					</p>
@@ -226,26 +230,15 @@
         </div>
     </div>
 
-    <!-- What is -->
-	
-    
-    
-    <div class="content-section-a">
-
+	<!--Pelayanan-->
+    <div class="content-section-c">
         <div class="container">
-
              <div class="row">
-			 
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <iframe class="img-rounded" width="560" height="400" src="https://www.youtube.com/embed/yaowjxs2K0g" frameborder="0" allowfullscreen></iframe>
-                </div>
-			 
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Pelayanan</h3>
-                    <p class="lead">Kami CV Cerdas Group merupakan perusahaan yang secara khusus menangani masalah-masalah antara lain:
+                    <h2 class="section-heading white">Pelayanan</h2>
+                    <p class="lead white">Kami CV Cerdas Group merupakan perusahaan yang secara khusus menangani masalah-masalah antara lain:
 					</p>
-					
-					<ul class="descp lead2">
+					<ul class="descp lead2 white">
 						<li><i class="glyphicon glyphicon-check"></i> Penyedotan wc / tinja rumah tangga & Industri</li>
 						<li><i class="glyphicon glyphicon-check"></i> Penyedotan limbah industri</li>
 						<li><i class="glyphicon glyphicon-check"></i> Penyedotan air kotor</li>
@@ -253,10 +246,12 @@
 						<li><i class="glyphicon glyphicon-check"></i> Pelancaran wc / kloset tersumbat</li>
 						<li><i class="glyphicon glyphicon-check"></i> Dan lain-lain.</li>
 					</ul>
-					<p>
-						<a class="btn btn-embossed btn-info" href="#contact" role="button">Hubungi Kami</a>
-					</p>
-				</div>           
+					<p><a class="btn btn-embossed btn-info" href="#contact" role="button"><i class="fa fa-phone"></i> Hubungi Kami</a></p>
+				</div>    
+				<div class="col-sm-6 wow fadeInRightBig white">
+					<br/><br/>
+                    <iframe class="img-rounded" width="560" height="400" src="https://www.youtube.com/embed/yaowjxs2K0g" frameborder="0" allowfullscreen></iframe>
+                </div>       
             </div>
         </div>
     </div>
@@ -288,8 +283,8 @@
         </div>
 	</div>
 
-	<!-- Credits -->
-	<div id="credits" class="content-section-a">
+	<!-- jangkauan -->
+	<div id="jangkauan" class="content-section-a">
 		<div class="container">
 			<div class="row">
 			
@@ -377,6 +372,31 @@
 			</div>
 		</div>
 	</div>
+	<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">CV. Cerdas Grup</h3>
+			
+			<!-- LICENSE -->
+			Desain By <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy" property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="http://www.andreagalanti.it" property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the publi under 
+		   <br>the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
+		   Commons Attribution 3.0 LicenseL</a>.
+              <p class="footer-title">Deveplover By <a href="http://suntech.id">Suntech.id</a></p>
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
 	
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
@@ -389,10 +409,8 @@
 	  jQuery(function($) {
 		$(document).ready( function() {
 		  $('.navbar-default').stickUp();
-		  
 		});
 	  });
-	
 	</script>
 	<!-- Smoothscroll -->
 	<script type="text/javascript" src="js/jquery.corner.js"></script> 

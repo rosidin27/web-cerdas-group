@@ -18,7 +18,7 @@ body, html {
 
 ::selection{background:#1abc9c;color:white}
 
-.abcen{position: absolute;bottom: 8%;}
+.abcen{position: absolute;bottom: 30%;}
 
 .abcen1{position: absolute;top: 20%;}
 
@@ -74,8 +74,8 @@ margin: auto;
 
 .h1_home{
 	font-size: 80px;
-	font-family: arvo;
-	font-weight: 300;
+	/*font-family: arvo;*/
+	/*font-weight: 300;*/
 	letter-spacing: 6px;
 }
 
@@ -1192,7 +1192,7 @@ color: #ECEBEB;
 
 footer {
 	background-color: #f8f8f8;
-	padding: 50px 0;
+	/*padding: 50px 0;*/
 }
 
 p.copyright {

@@ -2,23 +2,23 @@
 date_default_timezone_set("Asia/Jakarta");
 //================================================================================
 //KONEKSI PDO
-$host='localhost';
-$user='sedz2653';
-$pass='wbPiBdCAyT9T26';
-$db='sedz2653_sedotwc';
+$host='localhost:3307';
+$user='root';
+$pass='';
+$db='cerdas-group';
 try{
 	$GLOBALS['koneksiPdo'] = new PDO("mysql:host={$host}; dbname={$db};",$user,$pass);
 }catch(PDOException $exception){
-	echo "<script>alert('Terjadi Kesalahan Pada Koneksi DataBase 1');</script>";
+	echo "<script>alert('Terjadi Kesalahan Pada Koneksi DataBase !');</script>";
 	exit();
 	echo "<script>KONEKSI PDO GAGAL TOTAL !!!</script>". $exception->getMessage();
 }
 //================================================================================
 //================================================================================
 //KONEKSI MySQLi
-	@$GLOBALS['mysqli'] = mysqli_connect("localhost","sedz2653","wbPiBdCAyT9T26","sedz2653_sedotwc");
-	if(!mysqli_connect("localhost","sedz2653","wbPiBdCAyT9T26","sedz2653_sedotwc")){
-		echo "<script>alert('Terjadi Kesalahan Pada Koneksi DataBase 2');</script>"; 
+	@$GLOBALS['mysqli'] = mysqli_connect("localhost:3307","root","","cerdas-group");
+	if(!mysqli_connect("localhost:3307","root","","cerdas-group")){
+		echo "<script>alert('Terjadi Kesalahan Pada Koneksi DataBase !');</script>"; 
 		exit();
 	}
 //================================================================================
@@ -175,8 +175,8 @@ function mysqlInput($table,$field,$data){
 	return $input;
 }
 
-	@mysql_connect('localhost','sedz2653','wbPiBdCAyT9T26');
-	@mysql_select_db('sedz2653_sedotwc');
+	@mysql_connect('localhost','root','');
+	@mysql_select_db('sedotwc');
 	
 	//$sql="select *from login";
 	//$hasil=mysql_query($sql);

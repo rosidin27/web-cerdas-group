@@ -126,7 +126,6 @@ if(isset($_POST['data'])){
 function tambah($data_field){
 	$field = array('detail_profil','visi','misi','foto');
 	$data = array($data_field);
-
 	if(PdoInput("profil",$field,$data)){
         echo "<script>alert('Data Tersimpan !'); window.location = '../'</script>";
     }else{

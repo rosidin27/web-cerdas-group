@@ -1,1 +1,0 @@
-Semua file dan database berasal dari cpanel
